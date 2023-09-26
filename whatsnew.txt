@@ -1,4 +1,2 @@
-Test to make sure updating work's
-Version 1.9.7
-- [*] Fixed the SteamCMD console window re-opening over and over.
-- [*] Added a batch file to exit SteamCMD at any time.
+Version 1.9.9
+- [*] removed steamcmd downloading from the app as its broken now it will be done with the script provided
