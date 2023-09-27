@@ -48,7 +48,7 @@ It currently supports more than 1000+ games!
 - You can Import URLs from a text file.
 - You can save your mod queue as a text file.
 - Auto-URL detection and Auto-Queueing.
-- The program is self-contained. No setups (unless you chose the installer) no bloat.
+- The program is self-contained. No setups, no bloat.
 - It offers multiple ways to download mods. SteamCMD, SteamWebAPI... and more to come!
 - Automatically clears leftover files from canceled downloads and corrupted files that occupy free space.
 
