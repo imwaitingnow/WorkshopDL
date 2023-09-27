@@ -2,8 +2,13 @@ import os
 import zipfile
 import requests
 
-# URL of the file to download
-file_url = "https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip"
+# List of URLs to try for downloading the file
+file_urls = [
+    "https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip",
+    "http://web.archive.org/web/2/https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip",  # Wayback Machine
+    # mirror URL
+]
+
 # Directory where you want to save the downloaded file and extract it
 output_directory = "steamcmd"
 # Path to the downloaded zip file
@@ -12,14 +17,21 @@ zip_file_path = os.path.join(output_directory, "steamcmd.zip")
 # Create the output directory if it doesn't exist
 os.makedirs(output_directory, exist_ok=True)
 
-# Download the file
-response = requests.get(file_url)
-if response.status_code == 200:
-    with open(zip_file_path, 'wb') as f:
-        f.write(response.content)
-    print(f"Downloaded {zip_file_path}")
-else:
-    print(f"Failed to download {file_url}")
+download_successful = False
+
+for url in file_urls:
+    response = requests.get(url, allow_redirects=True)
+    if response.status_code == 200:
+        with open(zip_file_path, 'wb') as f:
+            f.write(response.content)
+        print(f"Downloaded {zip_file_path}")
+        download_successful = True
+        break
+    else:
+        print(f"Failed to download {url}")
+
+if not download_successful:
+    print("All download attempts failed. Exiting.")
     exit(1)
 
 # Extract the zip file
