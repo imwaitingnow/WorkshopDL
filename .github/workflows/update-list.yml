@@ -2,6 +2,8 @@ name: Update Version Number
 
 on:
   push:
+    branches:
+      - main
     paths:
       - 'supported/appids'
       - 'supported/games'
