@@ -37,7 +37,7 @@ WorkshopDL allows you to download mods from the Steam workshop for free!
 It currently supports more than 1000+ games!
 
 ## Features
-- Very easy to use.
+- Straightforward to use.
 - User-friendly GUI.
 - Supports 1GB+ mods.
 - Includes a handy mod installer.
@@ -79,10 +79,10 @@ It currently supports more than 1000+ games!
 1. Execute "WorkshopDL.exe"
 Do *not* open the "steamcmd.exe" located inside the steamcmd folder.
 
-2. At the "Workshop Homepage" box simply copy & paste, inside the box, the game's workshop homepage URL.
+2. At the "Workshop Homepage" box copy & paste, inside the box, the game's workshop homepage URL.
 For example, here is a workshop homepage https://steamcommunity.com/app/4000/workshop/.
 
-3. At the "Workshop mod URL" box simply copy & paste, inside the box, the URL of the mod you want to download.
+3. At the "Workshop mod URL" box copy & paste, inside the box, the URL of the mod you want to download.
 
 4. Click download.
 (Note: The first time it might take longer to download cause SteamCMD is downloading some necessary files.
@@ -104,7 +104,7 @@ It works with a lot of SteamCMD unsupported games, usually single-player ones.
 <br>
 
 Q: Why would I need this?  
->  A: If you own a game on a different platform like GOG or the Epic Games store, you cannot download mods for the game, as the majority of mods are locked inside Steam's workshop. So instead of buying the game a second time to access the mods, you can simply use WorkshopDL.
+>  A: If you own a game on a different platform like GOG or the Epic Games store, you cannot download mods for the game, as the majority of mods are locked inside Steam's workshop. So instead of buying the game a second time to access the mods, you can use WorkshopDL.
 
 Q: How does this work?  
 >  A: It pretty much is a GUI that launches Valve's SteamCMD commandline tool with the needed parameters to download the workshop item you want.  
