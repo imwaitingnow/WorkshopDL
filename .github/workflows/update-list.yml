@@ -1,5 +1,3 @@
-name: Update Version Number
-
 on:
   push:
     branches:
@@ -10,28 +8,29 @@ on:
 
 jobs:
   update-version:
+    name: Update Version Number  # Updated name
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
+      - name: Checkout code
+        uses: actions/checkout@v2
 
-    - name: Update Version Number
-      run: |
-        # Initialize the version number if it doesn't exist
-        if [ ! -f supported/list_version ]; then
-          echo '0' > supported/list_version
-        fi
-
-        # Increment the version number for each change
-        version=$(cat supported/list_version)
-        version=$((version + 1))
-        echo "$version" > supported/list_version
-
-        # Commit and push the changes
-        git config user.name "GitHub Actions"
-        git config user.email "actions@github.com"
-        git add supported/list_version
-        git commit -m "Increment version to $version"
-        git push
-      working-directory: ${{ github.workspace }}
+      - name: Update Version Number
+        run: |
+          # Initialize the version number if it doesn't exist
+          if [ ! -f supported/list_version ]; then
+            echo '0' > supported/list_version
+          fi
+          
+          # Increment the version number for each change
+          version=$(cat supported/list_version)
+          version=$((version + 1))
+          echo "$version" > supported/list_version
+          
+          # Commit and push the changes
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add supported/list_version
+          git commit -m "Increment version to $version"
+          git push
+        working-directory: ${{ github.workspace }}
