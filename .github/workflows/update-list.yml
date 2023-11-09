@@ -1,3 +1,5 @@
+name: Create Pull Request
+
 on:
   push:
     branches:
@@ -8,7 +10,7 @@ on:
 
 jobs:
   update-version:
-    name: Update Version Number  # Updated name
+    name: Update Version Number
     runs-on: ubuntu-latest
 
     steps:
@@ -26,11 +28,17 @@ jobs:
           version=$(cat supported/list_version)
           version=$((version + 1))
           echo "$version" > supported/list_version
-          
-          # Commit and push the changes
-          git config user.name "GitHub Actions"
-          git config user.email "actions@github.com"
-          git add supported/list_version
-          git commit -m "Increment version to $version"
-          git push
         working-directory: ${{ github.workspace }}
+
+      - name: Create Pull Request
+        id: cpr
+        uses: peter-evans/create-pull-request@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: 'Increment version'
+          title: 'Increment version'
+          body: 'This PR increments the version number.'
+
+      - name: Get Pull Request URL
+        run: |
+          echo "Pull Request URL: ${{ steps.cpr.outputs.pull-request-url }}"
