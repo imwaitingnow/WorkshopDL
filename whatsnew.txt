@@ -1,2 +1,3 @@
-Version 1.9.9
-- [*] removed steamcmd downloading from the app as its broken now it will be done with the script provided
+Version 2.0.0
+- [*] fixed and issue with auto find game id not activating
+- [*] re added steamcmd downloading, so the script provided is no longer needed
