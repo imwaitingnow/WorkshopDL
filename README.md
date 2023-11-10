@@ -2,7 +2,7 @@
 
 THIS IS FOR PEOPLE WHO PREFER INSTALLERS 
 
-THE files are COMPILED USING INSTALL FORGE
+THE files are COMPILED USING Clicksteam build installer
 
 let me know if you face any problems with the installers
 
@@ -125,7 +125,7 @@ Q: Is this safe to use?
 [![Virus Total](https://img.shields.io/badge/Virus%20Total%20Scan-v1.9.7%20Clean-brightgreen?style=flat-square)](https://www.virustotal.com/gui/file/b37bde0316d26295d5628cfc3830847499f3a28fd1c8e22e00fc89d3a05019bf)
 
 The best direct downloads site for Workshop mods: [(smods.ru)](https://catalogue.smods.ru/) 
-My email: vovologames (at) proton (dot) me
+My email: ~~vovologames (at) proton (dot) me~~
 
 ## Third Party Download Providers used in WorkshopDL
 [GGNetwork](https://ggntw.com/steam) <em>(If some mods don't download through WorkshopDL, try using their website)</em> 
