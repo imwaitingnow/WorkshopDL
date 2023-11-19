@@ -2,7 +2,7 @@
 
 THIS IS FOR PEOPLE WHO PREFER INSTALLERS 
 
-THE files are COMPILED USING Clicksteam build installer
+THE files are COMPILED USING Clickteam build installer
 
 let me know if you face any problems with the installers
 
@@ -10,7 +10,7 @@ let me know if you face any problems with the installers
 
 <em>Since most of the popular workshop downloading websites have shutdown or instruct users to download & use SteamCMD, a command-line program,
 I've decided to make my own standalone workshop downloader with a GUI to make things easier.</em>
-updated# WorkshopDL [![Version](https://img.shields.io/badge/version-2.0.0-blue?style=flat-square)](https://github.com/imwaitingnow/WorkshopDL-installer/releases)
+WorkshopDL [![Version](https://img.shields.io/badge/version-2.0.0-blue?style=flat-square)](https://github.com/imwaitingnow/WorkshopDL-installer/releases)
 
 
 ### Screenshots
