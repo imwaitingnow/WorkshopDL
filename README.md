@@ -1,12 +1,4 @@
-
-
-THIS IS FOR PEOPLE WHO PREFER INSTALLERS 
-
-THE files are COMPILED USING Clickteam build installer
-
-let me know if you face any problems with the installers
-
-[![Banner](https://raw.githubusercontent.com/imwaitingnow/WorkshopDL-installer/1.9.7-alpha.1/screenshots/banner_opaque_red_download.png)](https://github.com/imwaitingnow/WorkshopDL/releases/download/2.0.0/WorkshopDLv2.0.0.7z)
+[![Banner](https://raw.githubusercontent.com/imwaitingnow/WorkshopDL/main/screenshots/legacy/banner_opaque_red_download.png)](https://github.com/imwaitingnow/WorkshopDL/releases/latest)
 
 <em>Since most of the popular workshop downloading websites have shutdown or instruct users to download & use SteamCMD, a command-line program,
 I've decided to make my own standalone workshop downloader with a GUI to make things easier.</em>
