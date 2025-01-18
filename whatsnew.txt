@@ -1,7 +1,2 @@
-Version 2.0.1
-- [*] temporally disabled nether while they migrate to another server
-- [*] Added a new download provider "S.W.D"
-- [*] fixed an issue where a popup would display twice when downloading with steamCMD
-- [*] fixed an issue with url parsing that caused it to include other numbers into the workshop id text box
-- [*] fixed GGnetwork
-- [*] improved UI 
+Version 2.0.2
+- [*] fixed steamcmd parameter limit when downloading from a mod list
