@@ -1,2 +1,2 @@
-Version 2.0.2
-- [*] fixed steamcmd parameter limit when downloading from a mod list
+Version 2.0.3
+- [*] fixed an issue where +quit was provided when it should have been quit
