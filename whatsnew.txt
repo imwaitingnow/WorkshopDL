@@ -1,2 +1,2 @@
 Version 2.0.3
-- [*] fixed an issue where +quit was provided when it should have been quit
+- [*] fixed an issue where steamcmd should have exited when finished but didn't
