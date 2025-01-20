@@ -1,2 +1,3 @@
-Version 2.0.3
-- [*] fixed an issue where steamcmd should have exited when finished but didn't
+Version 2.0.4
+- [*] fixed an issue where concurrent download of single mods would no longer show the download complete screen using steamcmd
+- [*] fixed an issue where some Modules weren't included with the installer
