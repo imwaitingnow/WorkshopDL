@@ -1,3 +1,15 @@
+<table>
+  <tr>
+    <td align="center" style="padding: 20px; border-radius: 8px; background: linear-gradient(135deg, #0a1a3f 0%, #1e3a8a 100%);">
+      <strong style="font-size: 24px; color: #ffffff;">🛑 PROJECT OUTDATED 🛑</strong><br><br>
+      <span style="font-size: 16px; color: #cbd5e1;">
+        This project is no longer maintained. Use the actively developed version instead:
+      </span><br><br>
+      <a href="https://github.com/noitavoo/WorkshopDL" style="font-size: 20px; color: #60a5fa; font-weight: bold;">👉 https://github.com/noitavoo/WorkshopDL 👈</a>
+    </td>
+  </tr>
+</table>
+
 [![Banner](https://raw.githubusercontent.com/imwaitingnow/WorkshopDL/main/screenshots/legacy/banner_opaque_red_download.png)](https://github.com/imwaitingnow/WorkshopDL/releases/latest)
 
 <em>Since most of the popular workshop downloading websites have shutdown or instruct users to download & use SteamCMD, a command-line program,
