@@ -1,3 +1,9 @@
 Version 2.0.4
 - [*] fixed an issue where concurrent download of single mods would no longer show the download complete screen using steamcmd
 - [*] fixed an issue where some Modules weren't included with the installer
+
+This project is now outdated and no longer maintained. Please head over to the new, actively developed WorkshopDL project:
+
+  https://github.com/noitavoo/WorkshopDL
+
+We invite all users to switch to the new project for continued updates, fixes, and support. Thank you for using WorkshopDL!
